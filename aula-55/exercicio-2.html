@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/f2a2f20d54.js" crossorigin="anonymous"></script>
+    <style>
+    body{
+        background-color: #222;
+        margin-top: o;
+    }
+    header{
+        display:flex;
+        justify-content: space-between;
+        background-color: #101010;
+        width: 100%;
+        padding: 15px;
+        align-items: center;
+        z-index: 999;
+        box-shadow: 0px 5px 20px #000;
+        position: fixed;
+        top: 0;
+        left: 0;
+       
+        
+        
+       
+        
+        
+        
+        
+        
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+       
+       
+        
+        
+    }
+    header >ul >li{
+        margin:0 50px 0 15px;
+     }
+     
+    header >ul >li>a{
+        padding: 15px;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid black;
+        background-color: rgba(0, 0, 0, 0.164);
+        color: #14d414fd;
+        border-radius: 10px;
+        
+        
+    }
+    header >ul >li>a:hover{
+        background-color: #333;
+    }
+    .logo{
+        
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        
+    }
+    
+    h1{
+        color: #646262;
+        position:absolute;
+        top: 80px;
+        left: 45%;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 15px;
+        font-size: 40px;
+        
+        
+    }
+    img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .container{
+        max-width: 1200px;
+        margin:auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30vh;
+        
+        
+    }
+    .container div{
+        flex: 1 1 350px;
+        margin: 10px;
+    }
+    /*---------*/
+    .contato{
+        z-index: 999;
+        margin-top: 20vh;
+        color: #646262;
+        /*border-top: solid 3px #fff;*/
+        /*box-shadow:  0 0 50px 2px rgba(53, 52, 52, 0.6);
+        /*background-color: #fff;
+        box-shadow:  0 0 50px 2px rgba(145, 141, 141, 0.6);
+        /*position:absolute;
+        top: 200vh;
+        left: 0;
+        background-color: #fff;
+        width: 100%;
+        z-index: 99;
+        */
+        
+        
+        
+    }
+    .contato>h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 30px;
+        padding: 15px;
+        margin-top: 1vh;
+        font-size: 45px;
+    }
+    .item-1{
+        width: 50%;
+        padding: 15px;
+        margin-left: 20px;
+    }
+    form > label{
+        display: flex;
+        margin: 10px;
+        font-weight: 800;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    form > input{
+        margin: 10px;
+        padding: 17px;
+        width: 90%;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        background-color: #c3cfda;
+    }
+     textarea{
+        display: flex;
+        margin-left: 10px;
+        margin-top: 30px;
+        width: 94%;
+        height: 200px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        background-color: #c3cfda;
+        resize: none;
+       
+    }
+    article{
+        display: flex;
+        
+        max-width: 1200px;
+        margin: auto;
+        
+        
+    }
+    .form-2 img{
+    width: 100%;
+    
+    }
+    button{
+        padding: 15px;
+        border-radius: 10px;
+        border: none;
+        width: 93%;
+        margin-left: 15px;
+        margin-top: 30px;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        background-color: #c3cfda;
+        border: 2px solid #f1f1f1;
+        
+        
+       
+        
+        
+    }
+    button:hover{
+        border: 2px solid #12e612;
+        
+    }
+    .maps{
+        width: 100%;
+        
+    }
+    .maps h3{
+        font-size: 40px;
+        color: #646262;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 30vh;
+    }
+    .como-chegar{
+        margin: 10px;
+        
+    }
+    .como-chegar > iframe{
+        width: 100%;
+        height: 600px;
+        margin: 0;
+        border-radius: 5px;
+    }
+    footer{
+        height: 150px;
+        color:#646262;
+    }
+    footer> div> p{
+        text-align: center;
+    }
+    footer > div{
+        margin: 40px;
+        
+    }
+    footer > div ul li a{
+        padding: 15px;
+        color: #646262;
+        margin: 10px;
+        font-size: 40px;
+        text-align: center;
+        
+    }
+    footer > div ul li .zap:hover{
+        color: #12e612;
+    }
+    footer > div ul li .face:hover{
+        color: rgba(11, 11, 231, 0.767);
+    }
+    footer > div ul li .insta:hover{
+        color: #d45353;
+    }
+    
+    
+
+    
+    
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="logo"> <img src="./ideia.png" alt=""></div>
+        <ul class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Produto</a></li>
+            <li><a href="#">Contato</a></li>
+            
+            
+        </ul>
+    </header>
+    <h1>Serviços</h1>
+    <section class="container">
+        
+        <div>
+          <img src="./1200x1200.png" alt="">  
+        </div>
+        <div>
+            <img src="./remoção de virus.png" alt="">  
+          </div>
+          <div>
+            <img src="./dia_do_programador.png" alt="">  
+          </div>
+          <div>
+            <img src="./pc_gamer.png" alt="">  
+          </div>
+          <div>
+            <img src="./tecnico.png" alt="">  
+          </div>
+
+    </section>
+    <section class="contato">
+        <h2>Contato</h2>
+        <article>
+            <div class="item-1 form-1">
+                <form action="">
+                    <label for="">Nome</label>
+                    <input type="text" placeholder="Digite seu nome">
+                    <label for="">E-mail</label>
+                    <input type="email" placeholder="Digite seu e-mail">
+                    <label for="">Mensagem</label>
+                    <textarea name="Mensagem" id="" cols="30" rows="10"></textarea>
+                    <button>Enviar</button>
+                </form>
+    
+            </div>
+            <div class="item-1 form-2">
+                <img src="./img-contato.svg" alt="">
+    
+            </div>
+        </article>
+        
+
+    </section>
+    <section class="maps">
+        <h3>
+            Como Chegar
+        </h3>
+        <div class="como-chegar">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31852.547691432042!2d-39.61120774478007!3d-3.685184135182256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c06bc942f44d73%3A0x6d91fda9f7bab781!2sItapaj%C3%A9%2C%20CE%2C%2062600-000!5e0!3m2!1spt-BR!2sbr!4v1689552220768!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </section>
+    <footer>
+        <div class="nav-footer">
+            <ul>
+                <li><a class="insta" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a class="face" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a class="zap" href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
+            <p>₢ Todos os direitos reservados</p>
+        </div>
+        
+        
+    </footer>
+    
+</body>
+</html>

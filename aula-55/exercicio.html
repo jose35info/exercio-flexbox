@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+            background-color: #00253f;
+            width:80%;
+            margin: auto;
+            height: 645px;
+            display: flex;
+            justify-content: flex-start
+            
+            
+        }
+        img{
+            width: 100%;
+            height: 80%;
+        }
+        .flex-container h1,h2{
+            color: #82d3ba;
+            font-size: 60px;
+            font-family: sans-serif;
+            font-weight:700;
+            line-height: 50px;
+            
+            
+            
+            
+            
+        }
+        .flex-container p{
+            color: white;
+            font-size: 20px;
+            line-height: 5px;
+        }
+        .item-1{
+            height: 100%;
+            margin:0 0 0 10px;
+            
+        }
+        .item-0{
+            width: 100vh;
+            position: relative;
+        }
+        .item-01{
+            position: absolute;
+            top: 60px;
+            left: 60px;
+        }
+        
+        h3,h4,h5{
+            color: white;
+            font-size: 20px;
+            font-family: sans-serif;
+            margin: 30px;
+            font-weight: 100;
+        }
+        /*----------------*/
+        .flexbox-container{
+            display: flex;
+            width: 80%;
+            margin: auto;
+            justify-content: space-around;
+            height: 600px;
+            margin-top: 40px;
+            box-shadow: 0 -5px 5px -5px #c2bcbc;
+        }
+        .box-2{
+            background-image: linear-gradient(to   bottom right, #253f8f, #253f8f, #253f8f, #5caead, #62b9b3);
+            width: 33%;
+            border-end-start-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        .box-1-title{
+            color: #253f8f;
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 50px;
+            font-weight: bolder;
+        }
+        .title-sub{
+            color: #253f8f;
+            font-size: 30px;
+            text-align: center;
+            line-height: 4px;
+            font-weight: bolder;
+        }
+        .desc-mes{
+            color: #253f8f;
+            font-size: 20px;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        .valor-1{
+            color: #69c7b7;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 60px;
+        }
+         .paragrafo-1{
+            text-align: center;
+            color: #253f8f;
+            line-height: 10px;
+            font-size: 18px;
+            
+            
+        }
+        ul{
+            margin-top: 10vh;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        .bnt-blue{
+            display: inline-block;
+            background-color: #69c7b7;
+            color: white;
+            padding: 15px;
+            width: 150px;
+            text-align: center;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            border-radius: 25px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="item-0">
+            <div class="item-01">
+        <h1>Our</h1>
+        <h2>Speakers</h2>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p> adipisicing elit. Aspernatur?</p>
+    </div>
+        </div>
+        <div class="item-1">
+            <img src="https://i.pinimg.com/236x/19/8a/bd/198abd0730e616bf1c3afc692d16f2ac.jpg" alt="">
+           
+         <h3>Lile deun</h3>
+         <p>Lorem ipsum dolor sit.</p>
+        
+        </div>
+        <div class="item-1">
+            <img src="https://i.pinimg.com/236x/a6/e8/9f/a6e89fe67b473eb0adb1227e6ef2b322.jpg" alt="">
+            <h4>Sarah</h4>
+            <p>Lorem ipsum dolor sit.</p>
+        </div>
+        <div class="item-1">
+            <img src="https://i.pinimg.com/236x/e1/18/aa/e118aabd840cd792671c7b6bcc8c5485.jpg" alt="">
+            <h5>Jose Gomes</h5>
+            <p>Lorem ipsum dolor sit.</p>
+        </div>
+        
+
+    </div>
+    <div class="flexbox-container">
+        <div class="box-1">
+            <h1 class="box-1-title">smd</h1>
+            <h2 class="title-sub">Basic</h2>
+            <p class="desc-mes" >6 month program</p>
+            <p class="valor-1" >$595</p>
+            <p class="paragrafo-1">2 Lorem, ipsum.</p>
+            <p class="paragrafo-1">12 Lorem, ipsum.</p>
+            <p class="paragrafo-1">24 Lorem, ipsum.</p>
+            <ul>
+                <li><a class="bnt-blue" href="#">Buy Now</a></li>
+                <li><a  class="bnt-wi" href="#">Buy Now</a></li>
+            </ul>
+        </div>
+        <div class="box-2">
+            <h1 class="box-1-title">smd</h1>
+            <h2 class="title-sub">Basic</h2>
+            <p>12 month program</p>
+            <p>$595</p>
+            <p class="">2 Lorem, ipsum.</p>
+            <p class="paragrafo-1">12 Lorem, ipsum.</p>
+            <p lass="paragrafo-1">24 Lorem, ipsum.</p>
+            <ul>
+                <li><a class="bnt-blue" href="#">Buy Now</a></li>
+                <li><a  class="bnt-wi" href="#">Buy Now</a></li>
+            </ul>
+        </div>
+        <div class="box-1">
+            <h1 class="box-1-title">smd</h1>
+            <h2 class="title-sub">Basic</h2>
+            <p>24 month program</p>
+            <p>$595</p>
+            <p>2 Lorem, ipsum.</p>
+            <p>12 Lorem, ipsum.</p>
+            <p>24 Lorem, ipsum.</p>
+            <ul>
+                <li><a class="bnt-blue" href="#">Buy Now</a></li>
+                <li><a  class="bnt-wi" href="#">Buy Now</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
